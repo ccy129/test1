@@ -28,6 +28,50 @@ void RPGObj::initObj(string type)
         this->_coverable = false;
         this->_eatable = true;
     }
+    else if (type.compare("basictower")==0){
+        this->_coverable = false;
+        this->_eatable = false;
+    }
+    else if (type.compare("guideboard")==0){
+        this->_coverable = false;
+        this->_eatable = false;
+    }
+    else if (type.compare("corn")==0){
+        this->_coverable = false;
+        this->_eatable = false;
+    }
+    else if (type.compare("path1")==0){
+        this->_coverable = true;
+        this->_eatable = false;
+    }
+    else if (type.compare("path2")==0){
+        this->_coverable = false;
+        this->_eatable = false;
+    }
+    else if (type.compare("root")==0){
+        this->_coverable = false;
+        this->_eatable = false;
+    }
+    else if (type.compare("well")==0){
+        this->_coverable = false;
+        this->_eatable = false;
+    }
+    else if (type.compare("lamp")==0){
+        this->_coverable = false;
+        this->_eatable = false;
+    }
+    else if (type.compare("statue")==0){
+        this->_coverable = false;
+        this->_eatable = false;
+    }
+    else if (type.compare("flower")==0){
+        this->_coverable = false;
+        this->_eatable = false;
+    }
+    else if (type.compare("wood")==0){
+        this->_coverable = false;
+        this->_eatable = false;
+    }
     else{
         //TODO 应由专门的错误日志文件记录
         cout<<"invalid ICON type."<<endl;
