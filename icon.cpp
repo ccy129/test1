@@ -7,10 +7,21 @@ pair<string,ICON> pairArray[] =
 {
     make_pair("player",ICON("player",1,13, 1, 2)),
     make_pair("stone",ICON("stone",4,9, 1, 1)),
-    make_pair("fruit",ICON("fruit",3,6, 1, 1)),
+    make_pair("fruit",ICON("fruit",10,13, 1, 1)),
     make_pair("bole",ICON("bole",4,8, 2, 1)),
-    make_pair("path",ICON("path",1,4, 2, 1)),
-    make_pair("house",ICON("house",8,7, 4, 3))
+    make_pair("path1",ICON("path1",3,3, 3, 1)),
+    make_pair("path2",ICON("path2",7,0, 1, 3)),
+    make_pair("house",ICON("house",8,7, 4, 3)),
+    make_pair("tree",ICON("tree",6,6, 2, 2)),
+    make_pair("basictower",ICON("basictower",0,2, 2, 2)),
+    make_pair("guideboard",ICON("guideboard",0,5, 1, 1)),
+    make_pair("corn",ICON("corn",11,11, 2, 2)),
+    make_pair("root",ICON("root",2,5, 1, 1)),
+    make_pair("well",ICON("well",2,10, 2, 3)),
+    make_pair("lamp",ICON("lamp",4,10, 1, 3)),
+    make_pair("statue",ICON("statue",8,12, 1, 2)),
+    make_pair("flower",ICON("flower",6,11, 1, 1)),
+    make_pair("wood",ICON("wood",2,13, 1, 2))
 };
 
 map<string,ICON> ICON::GAME_ICON_SET(pairArray,pairArray+sizeof(pairArray)/sizeof(pairArray[0]));
