@@ -4,7 +4,11 @@
 void RPGObj::initObj(string type)
 {
     //TODO 所支持的对象类型应定义为枚举
-    if (type.compare("player")==0){
+    if (type.compare("enemy1")==0){
+        this->_coverable = false;
+        this->_eatable = false;
+    }
+    else if (type.compare("enemy2")==0){
         this->_coverable = false;
         this->_eatable = false;
     }
