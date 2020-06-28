@@ -5,7 +5,8 @@ int ICON::GRID_SIZE = 32;
 
 pair<string,ICON> pairArray[] =
 {
-    make_pair("player",ICON("player",1,13, 1, 2)),
+    make_pair("enemy1",ICON("enemy1",1,13, 1, 2)),
+    make_pair("enemy1",ICON("enemy2",1,13, 1, 2)),
     make_pair("stone",ICON("stone",4,9, 1, 1)),
     make_pair("fruit",ICON("fruit",10,13, 1, 1)),
     make_pair("bole",ICON("bole",4,8, 2, 1)),
